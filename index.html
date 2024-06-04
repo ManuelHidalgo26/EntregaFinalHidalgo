@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda E-comerce</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda E-commerce</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Productos</a></li>
+                <li>
+                    <a href="#" id="carrito-icono" onclick="toggleCarrito()">
+                        🛒 <span id="carrito-cantidad">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="productos">
+            <h2>Productos</h2>
+            <div class="producto">
+                <img src="./img/CocaCola.jpg" alt="Coca-Cola">
+                <h3>Coca-Cola</h3>
+                <p>Bebida gaseosa Coca-Cola 2L.</p>
+                <p>Precio: $1.50</p>
+                <button onclick="agregarAlCarrito('Coca-Cola', 1.50)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/FernetBranca.webp" alt="Fernet">
+                <h3>Fernet</h3>
+                <p>Bebida alcohólica Fernet 750ml.</p>
+                <p>Precio: $12.00</p>
+                <button onclick="agregarAlCarrito('Fernet', 12.00)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/Heineken.webp" alt="Cerveza">
+                <h3>Cerveza</h3>
+                <p>Cerveza artesanal 500ml.</p>
+                <p>Precio: $3.00</p>
+                <button onclick="agregarAlCarrito('Cerveza', 3.00)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/SnacksVariados.webp" alt="Snacks">
+                <h3>Snacks</h3>
+                <p>Snacks variados 150g.</p>
+                <p>Precio: $2.00</p>
+                <button onclick="agregarAlCarrito('Snacks', 2.00)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/burga.webp" alt="Comida">
+                <h3>Comida rápida</h3>
+                <p>Combo de hamburguesa con papas fritas.</p>
+                <p>Precio: $8.00</p>
+                <button onclick="agregarAlCarrito('Comida rápida', 8.00)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/Citric.webp" alt="Jugo">
+                <h3>Jugo de Naranja</h3>
+                <p>Jugo de naranja 1L.</p>
+                <p>Precio: $1.20</p>
+                <button onclick="agregarAlCarrito('Jugo de Naranja', 1.20)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/PapasFritas.webp" alt="Papas Fritas">
+                <h3>Papas Fritas</h3>
+                <p>Bolsa de papas fritas 200g.</p>
+                <p>Precio: $1.80</p>
+                <button onclick="agregarAlCarrito('Papas Fritas', 1.80)">Agregar al carrito</button>
+            </div>
+            <div class="producto">
+                <img src="./img/Feastables.webp" alt="Chocolate">
+                <h3>Chocolate</h3>
+                <p>Barra de chocolate 100g.</p>
+                <p>Precio: $2.50</p>
+                <button onclick="agregarAlCarrito('Chocolate', 2.50)">Agregar al carrito</button>
+            </div>
+        </section>
+
+        <section id="carrito" class="hidden">
+            <h2>Carrito de Compras</h2>
+            <ul id="lista-carrito"></ul>
+            <p>Total: $<span id="total">0.00</span></p>
+            <button onclick="finalizarCompra()">Finalizar Compra</button>
+        </section>
+    </main>
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
