@@ -1,0 +1,50 @@
+[
+    {
+        "nombre": "Coca-Cola",
+        "precio": 1500,
+        "imagen": "./img/CocaCola.jpg",
+        "descripcion": "Bebida gaseosa Coca-Cola 2L."
+    },
+    {
+        "nombre": "fernet branca",
+        "precio": 9000,
+        "imagen": "./img/FernetBranca.webp",
+        "descripcion":"Bebida alcohólica Fernet 750ml."
+    },
+    {
+        "nombre": "Cerveza",
+        "precio": 1500,
+        "imagen": "./img/Heineken.webp",
+        "descripcion":"Cerveza artesanal 500ml."
+    },
+    {
+        "nombre": "Snacks",
+        "precio": 2500,
+        "imagen": "./img/SnacksVariados.webp",
+        "descripcion":"Snacks variados."
+    },
+    {
+        "nombre": "Comida rapida",
+        "precio": 5500,
+        "imagen": "./img/burga.webp",
+        "descripcion":"Combo de hamburguesa con papas fritas."
+    },
+    {
+        "nombre": "Jugo de naranja",
+        "precio": 2600,
+        "imagen": "./img/Citric.webp",
+        "descripcion":"Jugo de naranja 1L."
+    },
+    {
+        "nombre": "Papas fritas",
+        "precio": 2600,
+        "imagen": "./img/PapasFritas.webp",
+        "descripcion":"Bolsa de papas fritas 200g."
+    },
+    {
+        "nombre": "Chocolate",
+        "precio": 1400,
+        "imagen": "./img/Feastables.webp",
+        "descripcion":"Barra de chocolate 100g."
+    }
+]

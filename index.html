@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tienda E-commerce</title>
     <link rel="stylesheet" href="./css/main.css">
+    <!-- Incluye SweetAlert desde un CDN -->
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
 </head>
 <body>
     <header>
@@ -24,63 +27,7 @@
 
     <main>
         <section id="productos">
-            <h2>Productos</h2>
-            <div class="producto">
-                <img src="./img/CocaCola.jpg" alt="Coca-Cola">
-                <h3>Coca-Cola</h3>
-                <p>Bebida gaseosa Coca-Cola 2L.</p>
-                <p>Precio: $1500</p>
-                <button data-producto="Coca-Cola" data-precio="1500">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/FernetBranca.webp" alt="Fernet">
-                <h3>Fernet</h3>
-                <p>Bebida alcohólica Fernet 750ml.</p>
-                <p>Precio: $9000</p>
-                <button data-producto="Fernet" data-precio="9000">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/Heineken.webp" alt="Cerveza">
-                <h3>Cerveza</h3>
-                <p>Cerveza artesanal 500ml.</p>
-                <p>Precio: $1500</p>
-                <button data-producto="Cerveza" data-precio="1500">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/SnacksVariados.webp" alt="Snacks">
-                <h3>Snacks</h3>
-                <p>Snacks variados 150g.</p>
-                <p>Precio: $2500</p>
-                <button data-producto="Snacks" data-precio="2500">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/burga.webp" alt="Comida">
-                <h3>Comida rápida</h3>
-                <p>Combo de hamburguesa con papas fritas.</p>
-                <p>Precio: $5500</p>
-                <button data-producto="Comida rápida" data-precio="5500">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/Citric.webp" alt="Jugo">
-                <h3>Jugo de Naranja</h3>
-                <p>Jugo de naranja 1L.</p>
-                <p>Precio: $2500</p>
-                <button data-producto="Jugo de Naranja" data-precio="2500">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/PapasFritas.webp" alt="Papas Fritas">
-                <h3>Papas Fritas</h3>
-                <p>Bolsa de papas fritas 200g.</p>
-                <p>Precio: $2600</p>
-                <button data-producto="Papas Fritas" data-precio="2600">Agregar al carrito</button>
-            </div>
-            <div class="producto">
-                <img src="./img/Feastables.webp" alt="Chocolate">
-                <h3>Chocolate</h3>
-                <p>Barra de chocolate 100g.</p>
-                <p>Precio: $1400</p>
-                <button data-producto="Chocolate" data-precio="1400">Agregar al carrito</button>
-            </div>
+            <h2>Productos:</h2>
         </section>
 
         <section id="carrito" class="hidden">
